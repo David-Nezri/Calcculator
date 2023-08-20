@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html , body{
+    height: 100%;
+}
+body{
+    background-color: rgba(27, 47, 48, 0.523);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.calculator{
+    border-radius: 10px;
+    padding: .5rem;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    box-shadow:5px 5px 8px 2px rgba(0, 0, 0, 0.4) ;
+}
+
+
+
+.calculator p{ 
+    color: white;
+    font-size: xx-large;
+    height:37px;
+}
+
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    height:calc(100% - 37px) ;
+}
+.btn-container :hover{
+    color: red;
+}
+
+.calculator .btn-container button{
+    width: 25%;
+    font-size: x-large;
+}
+
+
+.calculator .btn-container button#eq{
+    width:50%;
+}
+
+
+
+
+
